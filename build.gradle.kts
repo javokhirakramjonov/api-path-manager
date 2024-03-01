@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "1.9.22"
+    id("maven-publish")
 }
 
 group = "me.javahere.api-path-manager"
