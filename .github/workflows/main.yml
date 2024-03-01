@@ -10,8 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Setup JDK  
+    - name: Checkout
     - uses: actions/checkout@v4
+
+    - name: Setup JDK  
     - uses: actions/setup-java@v4
       with:
         distribution: 'oracle'
