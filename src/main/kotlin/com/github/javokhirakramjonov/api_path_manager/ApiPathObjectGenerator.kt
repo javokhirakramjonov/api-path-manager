@@ -1,4 +1,4 @@
-package me.javahere.api_path_manager
+package com.github.javokhirakramjonov.api_path_manager
 
 import com.squareup.kotlinpoet.*
 import java.nio.file.Path

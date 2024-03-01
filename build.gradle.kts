@@ -3,7 +3,7 @@ plugins {
     id("maven-publish")
 }
 
-group = "me.javahere.api-path-manager"
+group = "com.github.javokhirakramjonov:api-path-manager"
 version = "1.0"
 
 repositories {

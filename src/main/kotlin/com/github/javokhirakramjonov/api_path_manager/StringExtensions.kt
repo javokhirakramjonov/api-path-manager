@@ -1,4 +1,4 @@
-package me.javahere.api_path_manager
+package com.github.javokhirakramjonov.api_path_manager
 
 private const val CAMEL_CASE_DELIMITER = "_"
 
