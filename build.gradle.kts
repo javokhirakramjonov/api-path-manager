@@ -3,8 +3,24 @@ plugins {
     id("maven-publish")
 }
 
-group = "me.javahere:api-path-manager"
-version = "1.0.2"
+val appName = "api-path-manager"
+val appVersion = "1.0.3"
+val appGroupId = "me.javahere:$appName"
+
+group = appGroupId
+version = appVersion
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = appGroupId
+            artifactId = appName
+            version = "1.0.2"
+
+            from(components["java"])
+        }
+    }
+}
 
 repositories {
     mavenCentral()
