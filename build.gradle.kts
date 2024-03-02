@@ -3,19 +3,19 @@ plugins {
     id("maven-publish")
 }
 
+val appGroup = "me.javahere"
 val appName = "api-path-manager"
-val appVersion = "1.0.3"
-val appGroupId = "me.javahere:$appName"
+val appVersion = "1.0"
 
-group = appGroupId
+group = "$appGroup:$appName"
 version = appVersion
 
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = appGroupId
+            groupId = "com.github.$appGroup"
             artifactId = appName
-            version = "1.0.2"
+            version = "1.0"
 
             from(components["java"])
         }
