@@ -13,7 +13,7 @@ version = appVersion
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "com.github.$appGroup"
+            groupId = appGroup
             artifactId = appName
             version = "1.0"
 
