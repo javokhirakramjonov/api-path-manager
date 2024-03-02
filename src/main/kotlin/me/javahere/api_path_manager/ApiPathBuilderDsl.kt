@@ -1,4 +1,4 @@
-package com.github.javokhirakramjonov.api_path_manager
+package me.javahere.api_path_manager
 
 /**
  * Api Path Builder Dsl
